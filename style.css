@@ -41,7 +41,7 @@ html::-webkit-scrollbar-thumb{
     border-radius: 5rem;
 }
 
-body{
+body, .footer{
     background : #222;
 }
 
