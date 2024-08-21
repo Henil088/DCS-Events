@@ -80,16 +80,18 @@ section{
     background: var(--main--color) ;
 }
 
-.header,.footer{
+.header{
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 10000;
-    background: #333;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 9%;
 
+}
+.header, .footer{
+     background: #333;
 }
 
 .header .logo{
