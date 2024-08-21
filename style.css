@@ -41,7 +41,7 @@ html::-webkit-scrollbar-thumb{
     border-radius: 5rem;
 }
 
-body, .footer{
+body{
     background : #222;
 }
 
@@ -80,7 +80,7 @@ section{
     background: var(--main--color) ;
 }
 
-.header{
+.header,.footer{
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 10000;
